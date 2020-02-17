@@ -7,7 +7,7 @@
         @foreach($blogs as $blog)
             <div class='row'>
                 <div class="col-md-4">
-                    <img style="width:100%;" src="/storage/cover_images/{{$blog->cover_image}}" alt="">
+                    <img style="width:100%;" src="/storage/app/public/cover_images/{{$blog->cover_image}}" alt="">
                 </div>
                 <div class="col-md-8">
                     <a href="/blogs/{{$blog->id}}"><h2>{{$blog->title}}</h2> </a>
